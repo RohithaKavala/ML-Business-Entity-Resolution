@@ -185,21 +185,6 @@ This project explores several practical principles of large-scale data matching:
 - Validate output schemas and required identifiers.
 - Keep large datasets and generated artifacts separate from source control.
 
-## Limitations and Future Improvements
-
-Potential next steps include:
-
-- Improve candidate recall while preserving precision.
-- Add a dedicated labeled validation workflow with reproducible metrics.
-- Compare alternative blocking strategies and matching thresholds.
-- Introduce calibrated similarity scoring for relevant business attributes.
-- Add automated tests and configuration-driven execution.
-- Profile memory consumption and runtime on representative datasets.
-- Establish a reproducible benchmark for comparing pipeline versions.
-- Add continuous integration for code quality and regression testing.
-
-These are proposed improvements, not claims that every capability is already implemented.
-
 ## Reproducibility and Data
 
 The challenge datasets and generated results are not distributed with this repository. This keeps the repository focused on source code and documentation and avoids publishing large challenge artifacts.
